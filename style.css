@@ -5,6 +5,10 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #main-screen {
     background-image: url(imgs/bg.png);
     background-position: center;
@@ -66,6 +70,18 @@ in this case, it changes according to the width (700px)
     #profile-pic {
         width: 0px;
     }
+}
+
+.ct-btn-scroll {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+   -webkit-transition: background-color 0.25s ease-in-out;
+   transition: background-color 0.25s ease-in-out; 
 }
 
 #profile {
