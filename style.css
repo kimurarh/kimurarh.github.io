@@ -100,11 +100,12 @@ in this case, it changes according to the width (700px)
     border-bottom: 1px #353535 solid;
 }
 
-h1 {
+.content-box-top h1 {
     color: #29554e; 
     margin: 0;
     text-align: center;
     font-weight: 600;
+    font-size: 30px;
 }
 
 .content-box-top p {
@@ -121,22 +122,51 @@ h1 {
     width: 33%;
     float: left;
     padding-top: 30px;
-    text-align: center;
 }
 
 .inner-box h2 {
     text-align: center;
     color: #29554e; 
     font-weight: 600;
-    margin: 0;
+    margin: 0 0 25px 0;
 }
 
 .inner-box p {
     font-size: 16px;
+    margin: 0;
 }
 
 .bold-text {
     font-weight: bold;
+}
+
+#lang-box {
+    float: left;
+    margin: 0;
+    padding-right: 25px;
+    
+}
+
+#lang-box-levels {
+    float: left;
+}
+
+.full-circle {
+    background-color: #29554e;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 5px 5px 2px 0;
+}
+
+.empty-circle {
+    border:3px #29554e solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 5px 5px 2px 0;
 }
 
 .clear {
@@ -188,7 +218,13 @@ h1 {
 }
 
 .loc-icon {
-    width: 12px;
+    width: 14px;
+    padding-right: 3px;
+}
+
+.cal-icon {
+    width: 14px;
+    padding-right: 3px;
 }
 
 .location {
