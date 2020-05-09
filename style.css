@@ -40,7 +40,7 @@ html {
 /*Changes font-size on different screen sizes
 in this case, it changes according to the width (700px)
 */
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 801px) {
     #main-screen-title {
         font-size: 45px;
     }
@@ -52,9 +52,15 @@ in this case, it changes according to the width (700px)
     #main-screen-title {
         width: 650px;
     }
+
+    #profile-pic {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     #main-screen-title {
         font-size: 30px;
     }
