@@ -90,6 +90,7 @@ in this case, it changes according to the width (700px)
     transition: background-color 0.25s ease-in-out; 
 }
 
+
 #profile {
     background-color: white;
 }
@@ -119,9 +120,6 @@ in this case, it changes according to the width (700px)
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-}
-
-.content-box-bottom {
 }
 
 .inner-box {
@@ -247,6 +245,24 @@ in this case, it changes according to the width (700px)
     color: #29554e;
 }
 
-/*
+#page-footer {
     background-color: #434242;
-*/
+}
+
+#contact {
+    color: white;
+}
+
+.content-box-bottom {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.content-box-bottom a {
+    padding: 0 15px 0 15px;
+}
+
+.footer-logo {
+    width: 45px;
+    height: 45px;
+}
