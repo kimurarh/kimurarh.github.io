@@ -101,4 +101,8 @@ h2 {
     .full-text {
         display: none;
     }
+
+    #outer-box-content {
+        width: 80%;
+    }
 }

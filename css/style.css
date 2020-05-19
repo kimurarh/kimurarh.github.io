@@ -254,16 +254,32 @@ in this case, it changes according to the width (800px)
     color: white;
 }
 
-.content-box-bottom {
-    text-align: center;
-    padding: 30px 0 0 0;
+#footer-box {
+    margin: 0 auto;
+    padding: 20px 0 5px 0;
 }
 
-.content-box-bottom a {
+#footer-box-top {
+    margin: 0 auto;
+}
+
+#footer-box-top h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#footer-box-bottom {
+    text-align: center;
+}
+
+#footer-box-bottom a {
     padding: 0 15px 0 15px;
 }
 
 .footer-logo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
+
