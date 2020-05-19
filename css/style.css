@@ -39,7 +39,7 @@ html {
 }
 
 /*Changes font-size on different screen sizes
-in this case, it changes according to the width (700px)
+in this case, it changes according to the width (800px)
 */
 @media screen and (min-width: 801px) {
     #main-screen-title {

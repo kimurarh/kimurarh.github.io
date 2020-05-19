@@ -1,10 +1,23 @@
-body {
+html, body {
     background-color: #1d1d1b;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #outer-box {
-    margin: 13% 20% 0 20%;
     color: white;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#outer-box-content {
+    width: 60%;
 }
 
 #info-box {
@@ -74,4 +87,18 @@ h2 {
 .space-box {
     padding: 2.5%;
     float: left;
+}
+
+.short-text {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .short-text {
+        display: inline-block;
+    }
+    
+    .full-text {
+        display: none;
+    }
 }

@@ -25,19 +25,19 @@ function sameHeight() {
     h[1] = document.getElementById("university-box").clientHeight;
     h[2] = document.getElementById("programming-box").clientHeight;
 
-    var max = h[0];
+    var max_h = h[0];
     
     /* Find the biggest h[i] */
     for( var i = 1; i < h.length; i ++) {
-        if (h[i] > max) {
-            max = h[i];
+        if (h[i] > max_h) {
+            max_h = h[i];
         }
     }
 
     /* Resizes every class element to biggest h[i] */
     var divs = document.getElementsByClassName("content-box");
     for( var j = 0; j < divs.length; j++) {
-        divs[j].style.height = max + "px";
+        divs[j].style.height = max_h + "px";
     }
 
 }
