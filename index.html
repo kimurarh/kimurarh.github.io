@@ -9,20 +9,25 @@
         <link rel="icon" href="imgs/user-logo.png" type="image/x-icon">
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
     <body>
-        <div id="main-screen">
+        <div id="main-screen" class="fade-scroll">
             <div id="main-screen-content">
-                <div id="main-screen-title">Rafael Hideki Kimura</div>
+                <div id="main-screen-title"><span id="name-title"></span><span id="cursor">|</span></div>
                 <span id="main-screen-text">Computer Science Student | Electrical Engineer</span>
             </div>
             
-            <a id="down-scroll" href="#profile"><img src="imgs/arrow-down.png"></a>
+            <script type="text/javascript" src="js/home-script.js"></script> 
+
+            <a href="#profile"><img id="down-scroll" src="imgs/arrow-down.png"></a>
         </div>    
+       
+        <a href="#main-screen"><img id="top-scroll" src="imgs/arrow-top.png"></a>
         
-        <div id="profile">
+        <div id="profile" class="fade-scroll">
             <div class="content-box">
                 <div class="content-box-top">
                     <h1>Profile</h1>
@@ -65,7 +70,7 @@
                     <h1>Resume</h1>
                 </div>
 
-                <div class="resume-div">
+                <div class="resume-div fade-scroll">
                     <div class="resume-div-left">
                         <h2>Education</h2>
                     </div>
@@ -98,7 +103,7 @@
 
                 <div class="clear"></div>
 
-                <div class="resume-div">
+                <div class="resume-div fade-scroll">
                     <div class="resume-div-left">
                         <h2>Academic and Work Experience</h2>
                     </div>
@@ -114,7 +119,7 @@
                             <span class="time">2017</span>
                             <br><br>
                             <span class="institute">Department of Mathematics (UTFPR)</span><br>
-                            <span class="position">Calculus 1 Teaching Assistant</span><br>
+                            <span class="position">Teaching Assistant</span><br>
                             <span class="resume-text">Mentored and assisted undergraduate students enrolled in the Differential and Integral Calculus I course.</span><br>
                             <img class="loc-icon" src="imgs/location-icon.png">
                             <span class="location">Curitiba, PR, Brazil</span><br>
@@ -136,7 +141,7 @@
                         <p>
                             <span class="institute">Informatics for Immigrants (UFPR)</span><br>
                             <span class="position">Volunteer</span><br>
-                            <span class="resume-text">Assisted in the preparation of teaching material and served as a teacher and teaching assistant in the computer classes.</span><br>
+                            <span class="resume-text">Assisted in the preparation of teaching material and served as a teacher and teaching assistant.</span><br>
                             <img class="loc-icon" src="imgs/location-icon.png">
                             <span class="location">Curitiba, PR, Brazil</span><br>
                             <img class="cal-icon" src="imgs/calendar-icon.png">
