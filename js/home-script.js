@@ -1,10 +1,12 @@
+/*
+Typing effect - adds each char of 'txt'
+
 var i = 0;
 var txt = 'Rafael Hideki Kimura';
 var speed = 150;
 var cursorSpeed = 4 * speed;
 var cursor = true;
 
-/* Typing effect - adds each char of 'txt' */
 function typeWriter() {
 
     if (i < txt.length) {
@@ -17,7 +19,8 @@ function typeWriter() {
 
 typeWriter();
 
-/* Cursor blinking effect - it will execute the function repetitively after 'cursorSpeed' miliseconds */
+
+Cursor blinking effect - it will execute the function repetitively after 'cursorSpeed' miliseconds
 setInterval(() => {
     if(cursor) {
         document.getElementById("cursor").style.opacity = 0;
@@ -27,6 +30,8 @@ setInterval(() => {
         cursor = true;
     }
 }, cursorSpeed);
+
+*/
 
 /* Fade out content as user scrolls down*/
 $(function() {
