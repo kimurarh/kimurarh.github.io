@@ -33,7 +33,7 @@ setInterval(() => {
 
 */
 
-/* Fade out content as user scrolls down*/
+/* Fade out content as user scrolls down and make scroll top button appear*/
 $(function() {
     var documentEl = $(document);
     var fadeElem = $(".fade-scroll");
@@ -44,7 +44,7 @@ $(function() {
         fadeElem.each(function() {
             var elemOffsetTop = $(this).offset().top;
             if(scrollPos > elemOffsetTop) {
-                $(this).css("opacity", 1 - (scrollPos - elemOffsetTop)/400);
+                $(this).css("opacity", 1 - (scrollPos - elemOffsetTop)/600);
             }
         })
 
@@ -56,6 +56,10 @@ $(function() {
         }
 
     })
-})
 
+    $("#top-scroll").click(function(){
+        $("#main-screen").css("opacity", 1);
+    });
+
+})
 
