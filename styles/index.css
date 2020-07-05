@@ -1,0 +1,254 @@
+:root {
+    --dark-bg-color: #191919;
+    --light-bg-color: #f0f0f0;
+    --light-grey: #aaaaaa;
+    --grey: #525252;
+    --blue: #001f3f;
+}
+
+body, html {
+    background-color: var(--dark-bg-color);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    transition: 200ms;
+}
+
+/* Container */
+.container {
+    width: 80%;
+}
+
+.container .tp-box {
+    border-bottom: 1px solid var(--dark-bg-color);
+    margin-bottom: 40px;
+}
+
+.container .tp-box h2 {
+    padding: 0;
+}
+
+/********** NAVBAR **********/
+#navbar {
+    background-color: #101010;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar #nav-logo {
+    padding: 10px;
+    position: fixed;
+}
+
+#navbar #nav-logo a {
+    color: white;
+    font-weight: 700;
+}
+
+#navbar #nav-logo a span{
+   color: var(--light-grey);
+}
+
+#navbar #nav-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar .nav-item {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#navbar .nav-item:hover{
+    background-color: #393939;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+#navbar .nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+/********** HOME **********/
+#home {
+    background-color: var(--dark-bg-color);
+    height: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .img {
+    background-color: red;
+}
+
+#home h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#home h1 {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 48px;
+}
+
+/********** PROFILE **********/
+#profile {
+    padding: 40px 0;
+    background-color: var(--light-bg-color);
+
+    display: flex;
+    justify-content: center;
+}
+
+#profile .tp-box h2 {
+    color: var(--dark-bg-color);
+}
+
+#profile .container .bt-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#profile .container .bt-box .left-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+#profile .container .left-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#profile .container .right-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 500;
+}
+
+#profile .container .right-box p {
+    font-size: 18px;
+}
+
+/********** RESUME **********/
+#resume {
+    padding: 40px 0;
+    background-color: var(--light-bg-color);
+
+    display: flex;
+    justify-content: center;
+}
+
+#resume .container h3 {
+    margin: 0;
+}
+
+#resume .container .bt-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 40px;
+}
+
+#resume .container .bt-box .left-box {
+    padding-right: 30px;
+    text-align: right;
+    border-right: 2px solid var(--blue);
+}
+
+#resume .container .bt-box .left-box h3 {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+#resume .container .bt-box .right-box {
+    padding-left: 30px;
+}
+
+#resume .container .bt-box .right-box .section {
+    margin-bottom: 20px;
+}
+
+#resume .container .bt-box .right-box .section .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+#resume .container .bt-box .right-box .section .icon-text {
+    color: var(--blue);
+    font-size: 15px;
+}   
+
+/* Icons */
+.loc-icon {
+    width: 14px;
+    padding-right: 3px;
+}
+
+.cal-icon {
+    width: 14px;
+    padding-right: 3px;
+}
+
+/********** CONTACT **********/
+#contact {
+    padding: 40px 0 0 0;
+    background-color: var(--dark-bg-color);
+    color: var(--light-bg-color);
+
+    display: flex;
+    justify-content: center;
+}
+
+#contact .email {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Logo Box*/
+#contact .logo-box {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact .logo-box img {
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+}

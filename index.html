@@ -1,194 +1,206 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Kimura</title>
 
-<html>
-    <head>
-        <title>
-            Rafael Kimura
-        </title>
+    <!-- Title Icon --> 
+    <link rel="icon" href="imgs/user-logo.png" type="image/x-icon">
 
-        <link rel="icon" href="imgs/user-logo.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navbar">
+        <div id="nav-logo">
+            <a href="https://kimurarh.github.io/">
+                KIMURA<span>RH</span>
+            </a>
+        </div>
 
-    <body>
-        <div id="main-screen" class="fade-scroll">
-            <div id="main-screen-content">
-                <div id="main-screen-title"><span id="name-title"></span>Rafael Hideki Kimura<span id="cursor"></span></div>
-                <span id="main-screen-text">Computer Science Student | Electrical Engineer</span>
+        <div id="nav-options">
+            <div class="nav-item">
+                <a href="#home">Home</a>
             </div>
-            
-            <script type="text/javascript" src="js/home-script.js"></script> 
+            <div class="nav-item">
+                <a href="#profile">About</a>
+            </div>
+            <div class="nav-item">
+                <a href="#resume">Resume</a>
+            </div>
+            <div class="nav-item">
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
 
-            <a href="#profile"><img id="down-scroll" src="imgs/arrow-down.png"></a>
-        </div>    
-       
-        <a href="#main-screen"><img id="top-scroll" src="imgs/arrow-top.png"></a>
-        
-        <div id="profile" class="fade-scroll">
-            <div class="content-box">
-                <div class="content-box-top">
-                    <h1>Profile</h1>
-                    <p>Electrical Engineer working toward a Computer Science Degree at Universidade Federal do Paraná</p>
+    <!-- Home -->
+    <div id="home">
+        <h3>Hi, I'm</h3>
+        <h1><span class="laptop">Rafael Hideki </span><span class="mobile">Kimura</span></h1>
+    </div>
+
+    <!-- Profile -->
+    <div id="profile">
+        <div class="container">
+            <div class="tp-box">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="bt-box">
+                <div class="left-box">
+                    <img src="imgs/cthulu.png" alt="Profile Picture"> 
                 </div>
 
-                <div class="inner-box">
-                    <h2>About me</h2>
-                    <p>Rafael Hideki Kimura is currently a Computer Science Student, with a background in Electrical Engineering. 
-                    </p>
-                </div>
-
-                <div class="inner-box">
-                    <img id="profile-pic" src="imgs/cthulu.png">
-                </div>
-
-                <div class="inner-box">
-                    <h2>Details</h2>
+                <div class="right-box">
                     <p>
-                        <span class="bold-text">Name:</span><br>Rafael Hideki Kimura<br><br>
-                        <span class="bold-text">Location:</span><br>Curitiba, PR, Brasil<br><br>
-                        <span class="bold-text">Languages:</span>
-                    </p>
-
-                    <div id="lang-box">
-                        Portuguese<br>English
-                    </div>
-                    
-                    <div id="lang-box-levels">
-                        <div class="full-circle"></div><div class="full-circle"></div><div class="full-circle"></div><div class="full-circle"></div><div class="full-circle"></div><br>
-                        <div class="full-circle"></div><div class="full-circle"></div><div class="full-circle"></div><div class="full-circle"></div><div class="empty-circle"></div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-
-        <div id="resume">
-            <div class="content-box">
-                <div class="content-box-top">
-                    <h1>Resume</h1>
-                </div>
-
-                <div class="resume-div fade-scroll">
-                    <div class="resume-div-left">
-                        <h2>Education</h2>
-                    </div>
-
-                    <div class="resume-div-right">
-                        <p>
-                            <span class="institute">Universidade Federal do Paraná</span><br>
-                            <span class="position">Bachelor's Degree in Computer Science</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Curitiba, PR, Brazil</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2020 - Present</span>
-                            <br><br>
-                            <span class="institute">Universidade Tecnológica Federal do Paraná</span><br>
-                            <span class="position">Bachelor's Degree in Electrical Engineering</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Curitiba, PR, Brazil</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2012 - 2019</span>
-                            <br><br>
-                            <span class="institute">University of Utah</span><br>
-                            <span class="position">Electrical Engineering (Ciência sem Fronteiras)</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Salt Lake City, UT, United States</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2014 - 2015</span> 
-                        </p>
-                    </div>
-                </div>
-
-                <div class="clear"></div>
-
-                <div class="resume-div fade-scroll">
-                    <div class="resume-div-left">
-                        <h2>Academic and Work Experience</h2>
-                    </div>
-
-                    <div class="resume-div-right">
-                        <p>
-                            <span class="institute">DICOBEM (UTFPR)</span><br>
-                            <span class="position">Internship</span><br>
-                            <span class="resume-text">Assisted in the maintenance of electromechanical, electro-electronic, refrigeration and audiovisual equipment.</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Curitiba, PR, Brazil</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2017</span>
-                            <br><br>
-
-                            <span class="institute">Department of Electrical and Computer Engineering (University of Utah)</span><br>
-                            <span class="position">Research Assistant</span><br>
-                            <span class="resume-text">Assisted an Electrical Engineering phD student in his research. Automated project tasks using Matlab.</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Salt Lake City, UT, United States</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2015</span>
-                            <br><br>
-
-                            <span class="institute">Department of Mathematics (UTFPR)</span><br>
-                            <span class="position">Teaching Assistant</span><br>
-                            <span class="resume-text">Mentored and assisted undergraduate students enrolled in the Differential and Integral Calculus I course.</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Curitiba, PR, Brazil</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2014</span>
-                            <br><br>
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="clear"></div>
-
-                <div class="resume-div">
-                    <div class="resume-div-left">
-                        <h2>Other</h2>
-                    </div>
-
-                    <div class="resume-div-right">
-                        <p>
-                            <span class="institute">Informatics for Immigrants (UFPR)</span><br>
-                            <span class="position">Volunteer</span><br>
-                            <span class="resume-text">Assisted in the development of teaching material and served as teacher and teaching assistant.</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Curitiba, PR, Brazil</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2017</span>
-                            <br><br>
-                            <span class="institute">Cursinho Solidário</span><br>
-                            <span class="position">Teaching Assistant (Volunteer)</span><br>
-                            <span class="resume-text">Assisted students in solving Mathematics and Physics entrance examination questions.</span><br>
-                            <img class="loc-icon" src="imgs/location-icon.png">
-                            <span class="location">Curitiba, PR, Brazil</span><br>
-                            <img class="cal-icon" src="imgs/calendar-icon.png">
-                            <span class="time">2013</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="clear"></div>
-
-            </div>
-        </div>
-
-        <div id="page-footer">
-            <div id="footer-box">
-                <div id="footer-box-top">
-                    <h1 id="contact">Contact</h1>
-                </div>
-                <div id="footer-box-bottom">
-                    <p>
-                        <a href="https://github.com/kimurarh"><img class="footer-logo" src="imgs/github-logo.png"></a>
-                        <a href="mailto:kimurarh@gmail.com"><img class="footer-logo" src="imgs/email-logo.png"></a>
-                        <a href="https://www.facebook.com/kimurarh"><img class="footer-logo" src="imgs/facebook-logo.png"></a>
+                        Rafael Hideki Kimura is an Electrical Engineer from Brazil, who is currently studying Computer Science at Universidade Federal do Paraná.
                     </p>
                 </div>
             </div>
         </div>
+    </div>
 
-    </body>    
+    <!-- Resume -->
+    <div id="resume">
+        <div class="container">
+            <div class="tp-box">
+                <h2>Resume</h2>
+            </div>
 
+            <!-- Education -->
+            <div class="bt-box">
+                <div class="left-box">
+                    <h3>Education</h3>
+                </div>
+
+                <div class="right-box">
+                    <div class="section">
+                        <h3>Universidade Federal do Paraná</h3>
+                        <span class="position">Bachelor's Degree in Computer Science</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Curitiba, PR, Brazil</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2020 - Present</span>
+                    </div>
+
+                    <div class="section">
+                        <h3>Universidade Tecnológica Federal do Paraná</h3>
+                        <span class="position">Bachelor's Degree in Electrical Engineering</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Curitiba, PR, Brazil</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2012 - 2019</span>
+                    </div>
+
+                    <div class="section">
+                        <h3>University of Utah</h3>
+                        <span class="position">Bachelor's Degree in Electrical Engineering (Exchange Student)</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Salt Lake City, UT, United States</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2014 - 2015</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="bt-box">
+                <div class="left-box">
+                    <h3>Academic and Work Experience</h3>
+                </div>
+
+                <div class="right-box">
+                    <div class="section">
+                        <h3>DICOBEM (UTFPR)</h3>
+                        <span class="position">Internship</span><br>
+                        <span class="short-text">Assisted in the maintenance of electromechanical, electro-electronic, refrigeration and audiovisual equipment.</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Curitiba, PR, Brazil</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2017</span>
+                    </div>
+
+                    <div class="section">
+                        <h3>Department of Electrical and Computer Engineering (University of Utah)</h3>
+                        <span class="position">Research Assistant</span><br>
+                        <span class="short-text">Assisted an Electrical Engineering phD student in his research. Automated project tasks using Matlab.</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Salt Lake City, UT, United States</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2015</span>
+                    </div>
+
+                    <div class="section">
+                        <h3>Department of Mathematics (UTFPR)</h3>
+                        <span class="position">Teaching Assistant</span><br>
+                        <span class="short-text">Mentored and assisted undergraduate students enrolled in the Differential and Integral Calculus I course.</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Curitiba, PR, Brazil</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2014</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other -->
+            <div class="bt-box">
+                <div class="left-box">
+                    <h3>Other</h3>
+                </div>
+
+                <div class="right-box">
+                    <div class="section">
+                        <h3>Informatics for Immigrants (UFPR)</h3>
+                        <span class="position">Volunteer</span><br>
+                        <span class="short-text">Assisted in the development of teaching material and served as teacher.</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Curitiba, PR, Brazil</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2017</span>
+                    </div>
+
+                    <div class="section">
+                        <h3>Cursinho Solidário</h3>
+                        <span class="position">Teaching Assistant (Volunteer)</span><br>
+                        <span class="short-text">Assisted students in solving Mathematics and Physics entrance examination questions.</span><br>
+                        <img class="loc-icon" src="imgs/location-icon.png">
+                        <span class="icon-text">Curitiba, PR, Brazil</span><br>
+                        <img class="cal-icon" src="imgs/calendar-icon.png">
+                        <span class="icon-text">2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="tp-box">
+                <h2>Contact</h2>
+                <h4 class="email">kimurarh@gmail.com</h4>
+                <div class="logo-box">
+                    <a href="https://github.com/kimurarh">
+                        <img src="imgs/github-logo.png" alt="Github">
+                    </a>
+
+                    <a href="mailto:kimurarh@gmail.com">
+                        <img src="imgs/email-logo.png" alt="Email">
+                    </a>
+
+                    <a href="https://www.facebook.com/kimurarh">
+                        <img src="imgs/facebook-logo.png" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>

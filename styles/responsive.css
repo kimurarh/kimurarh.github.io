@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+
+    .laptop {
+        display: none;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    /* Home */
+    #home h3 {
+        font-size: 36px;
+    }
+
+    #home h1 {
+        font-size: 64px;
+    }
+
+    /* Profile */
+    #profile .container .bt-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #profile .container .right-box p {
+        font-size: 26px;
+    }
+
+    /* Resume */
+    #resume .container .bt-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    #resume .container .bt-box .left-box {
+        padding: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        border: none;
+    }
+
+    #resume .container .bt-box .left-box h3 {
+        font-size: 30px;
+    }
+
+    #resume .container .bt-box .right-box .section h3 {
+        font-size: 28px;
+    }
+
+    #resume .container .bt-box .right-box .section .position {
+        font-size: 26px;
+    }
+
+    #resume .container .bt-box .right-box .section .icon-text {
+        font-size: 24px;
+    }  
+    
+    #resume .container .bt-box .right-box .section .short-text {
+        font-size: 26px;
+    }
+
+    /* Contact */
+    #contact .container .tp-box h4 {
+        font-size: 26px;
+    }
+}
