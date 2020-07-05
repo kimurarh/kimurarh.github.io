@@ -1,3 +1,5 @@
+
+
 @media only screen and (max-width: 600px) {
 
     .laptop {
@@ -10,11 +12,11 @@
 
     /* Home */
     #home h3 {
-        font-size: 36px;
+        font-size: 26px;
     }
 
     #home h1 {
-        font-size: 64px;
+        font-size: 48px;
     }
 
     /* Profile */
@@ -24,7 +26,7 @@
     }
 
     #profile .container .right-box p {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     /* Resume */
@@ -42,27 +44,27 @@
     }
 
     #resume .container .bt-box .left-box h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     #resume .container .bt-box .right-box .section h3 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     #resume .container .bt-box .right-box .section .position {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     #resume .container .bt-box .right-box .section .icon-text {
-        font-size: 24px;
+        font-size: 16px;
     }  
     
     #resume .container .bt-box .right-box .section .short-text {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     /* Contact */
     #contact .container .tp-box h4 {
-        font-size: 26px;
+        font-size: 20px;
     }
 }
