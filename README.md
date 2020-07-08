@@ -1,6 +1,6 @@
 # Webpage for testing
 
-My first webpage created using HTML, CSS and JS.
+Personal webpage created using HTML, CSS and JS.
 Basic profile + resume page
 
 (IN PROGRESS)
