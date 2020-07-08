@@ -6,8 +6,27 @@
         display: none;
     }
 
+    /* Navbar */
     #navbar {
+        height: 43px;
+    }
+
+    #navbar #nav-options {
+        position: relative;
+        top: 43px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #101010;
+    }
+
+    #navbar #nav-options .nav-item {
         display: none;
+    }
+
+    #navbar #nav-menu {
+        display: block;
+        cursor: pointer;
     }
 
     /* Home */
