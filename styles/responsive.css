@@ -22,6 +22,12 @@
 
     #navbar #nav-options .nav-item {
         display: none;
+        transition: 200ms;
+    }
+
+    /* Shows nav-items on mobile */
+    #navbar #nav-options .collapse {
+        display: block !important;
     }
 
     #navbar #nav-menu {
